@@ -1,0 +1,23 @@
+{
+  "name": "rra",
+  "version": "1.0.0",
+  "description": "--- #### _Three Stage Course Material Project - Restaurant Reviews_",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mkaydub/RRA.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mkaydub/RRA/issues"
+  },
+  "homepage": "https://github.com/mkaydub/RRA#readme",
+  "devDependencies": {},
+  "dependencies": {
+    "browser-sync": "^2.24.7"
+  }
+}
