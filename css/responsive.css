@@ -1,0 +1,204 @@
+/* ====================== Media Query for iPhone 5 ====================== */
+@media only screen and (max-width: 374px) {
+  #neighborhoods-select {
+    margin-left: 11px;
+  }
+
+  #restaurants-list p {
+    margin: 5px;
+  }
+
+  .filter-options {
+    height: 65px;
+    width: 100%;
+  }
+
+  nav h1 {
+    padding: 8px;
+  }
+
+  #restaurants-list li {
+    width: 100%;
+  }
+
+  #restaurants-list {
+    padding-top: 18px;
+  }
+
+  #neighborhoods-select {
+    margin-left: 15px;
+    margin-top: 15px;
+    text-align: center;
+  }
+
+  #cuisines-select {
+    margin: 5px;
+    text-align: center;
+  }
+
+  #restaurants-list .restaurant-img {
+    margin: 0;
+    max-width: 100%;
+    min-height: 180px;
+    min-width: 100%;
+  }
+}
+
+/* ====================== Media Query for iPhone 6/7/8, iPhone X, Galaxy s5  ====================== */
+@media only screen and (min-width:375px) {
+  .filter-options select {
+    background-color: white;
+    border: 1px solid #584073;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    font-size: 12pt;
+    height: 35px;
+    letter-spacing: 0;
+    margin: 10px;
+    padding: 0 10px;
+    text-align: center;
+  }
+
+  .filter-options {
+    height: 65px;
+  }
+
+  nav h1 {
+    padding: 8px;
+  }
+
+  #restaurants-list li {
+    width: 100%;
+  }
+
+  #restaurants-list {
+    padding-top: 18px;
+  }
+
+  #neighborhoods-select {
+    margin-left: 25px;
+    margin-top: 15px;
+  }
+}
+
+/* ====================== Media Query for iPhone 6/7/8 Plus, Pixel 2, & Pixel2xl ====================== */
+@media only screen and (min-width: 411px) {
+  .filter-options select {
+    background-color: white;
+    border: 1px solid #584073;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    font-size: 14pt;
+    height: 35px;
+    letter-spacing: 0;
+    margin: 10px;
+    padding: 0 10px;
+    text-align: center;
+    /* width: 200px; */
+  }
+
+  .filter-options {
+    height: 65px;
+  }
+
+  nav h1 {
+    padding: 5px;
+  }
+
+  #restaurants-list {
+    padding: 18px 33px 0px;
+  }
+
+  #neighborhoods-select {
+    margin-left: 30px;
+    margin-top: 15px;
+  }
+
+  #restaurants-list li {
+    width: 100%;
+  }
+}
+
+/* ====================== Media Query for iPad ====================== */
+@media only screen and (min-width: 600px) {
+  #restaurants-list li {
+    width: 45%;
+    flex-wrap: wrap;
+    display: inline-grid;
+    margin: 10px;
+    max-height: 450px;
+  }
+
+  #restaurants-list p {
+    margin-bottom: 3px;
+  }
+
+  #restaurants-list li a {
+    width: 50%;
+    margin-top: 13px;
+    margin: auto;
+  }
+
+  nav h1 {
+    padding: 23px;
+  }
+
+  #restaurants-list li h1 {
+    font-size: 16pt;
+  }
+
+  .filter-options select {
+    margin: 16px;
+    width: 40%;
+  }
+
+  #neighborhoods-select {
+    margin-left: 60px;
+  }
+
+  option {
+    text-align: center;
+  }
+}
+
+/* ====================== Media Query for iPad Pro ====================== */
+@media only screen and (min-width: 769px) {
+  #restaurants-list li {
+    max-height: 485px;
+  }
+
+  #neighborhoods-select {
+    margin-left: 85px;
+  }
+}
+
+@media only screen and (min-width: 1000px) {
+  #restaurants-list {
+    padding: 18px 0px 0px;
+  }
+
+  #restaurants-list li {
+    width: 31%;
+    display: inline-flex;
+    margin: 6px;
+    flex-flow: column;
+  }
+
+  #restaurants-list li a {
+    font-size: 10pt;
+  }
+
+  #restaurants-list p {
+    font-size: 12pt;
+  }
+
+  #restaurants-list li h1 {
+    font-size: 14pt;
+  }
+}
+
+@media only screen and (min-width: 1400px) {
+  #restaurants-list li {
+    width: 24%;
+  }
+}
