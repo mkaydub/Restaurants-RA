@@ -1,16 +1,25 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 
 <head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <link rel="stylesheet" src="//normalize-css.googlecode.com/svn/trunk/normalize.css" />
   <link rel="stylesheet" href="css/styles.css">
+  <!--Responsive CSS -->
+<link rel="stylesheet" href="css/responsive.css">
+<link rel="stylesheet" href="css/detailsresponsive.css">
+<!-- Google Fonts -->
+<link href="https://fonts.googleapis.com/css?family=Raleway|Roboto:300,400" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Oswald|Raleway:900" rel="stylesheet">
   <title>Restaurant Reviews</title>
 </head>
 
 <body>
   <header>
     <nav>
-      <h1><a href="/">Restaurant Reviews</a></h1>
+      <h1 class="title"><a href="/">Restaurant Reviews</a></h1>
     </nav>
   </header>
 
@@ -20,7 +29,6 @@
     </section>
     <section>
       <div class="filter-options">
-        <h2>Filter Results</h2>
         <select id="neighborhoods-select" name="neighborhoods" onchange="updateRestaurants()">
           <option value="all">All Neighborhoods</option>
         </select>
@@ -28,7 +36,10 @@
           <option value="all">All Cuisines</option>
         </select>
       </div>
-      <ul id="restaurants-list"></ul>
+      <div class="restaurants-list-container">
+        <ul id="restaurants-list"></ul>
+      </div>
+
     </section>
   </main>
 
