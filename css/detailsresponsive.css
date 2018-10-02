@@ -1,0 +1,286 @@
+/* ====================== Media Query for iPhone 5 up to iPad ====================== */
+@media only screen and (max-width: 768px) {
+  #breadcrumb {
+    width: 100%;
+  }
+
+  .inside #map-container {
+    height: 350px;
+    position: relative;
+    width: 100%;
+    top: 151px;
+  }
+
+  div #map {
+    position: relative;
+    overflow: hidden;
+  }
+
+  .inside header {
+    width: 100%;
+  }
+
+  #restaurant-container {
+    padding: 140px 30px 30px;
+  }
+
+  #restaurant-name {
+    padding-top: 22px;
+    font-size: 21pt;
+    text-align: center;
+  }
+
+  #restaurant-img {
+    width: 100%;
+  }
+
+  #restaurant-cuisine {
+    width: 100%;
+    margin-top: -8px;
+  }
+
+  #restaurant-address {
+    font-size: 11pt;
+    margin: 20px 0;
+  }
+
+  table#restaurant-hours {
+    background-color: rgb(255, 255, 255);
+    /* border-radius: 10px; */
+    border: solid #382245 .5px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    padding: 4px;
+    margin-top: 23px;
+    width: 100%;
+  }
+
+  tr {
+    border: solid #382245 .5px;
+  }
+
+  #restaurant-hours td {
+    padding: 4px;
+    text-align: center;
+  }
+
+  #restaurant-hours-header {
+    font-size: 18pt;
+    width: 100%;
+    background-color: #392c4b;
+    color: #fff;
+    font-weight: 300;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+    text-align: center;
+    margin-bottom: -23px;
+  }
+
+  td {
+    font-size: 11pt;
+  }
+
+  #reviews-container {
+    padding: 20px 14px 30px;
+  }
+
+  #reviews-list li {
+    margin: 10px auto;
+    border: 1px solid #18151c;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+  }
+
+  #reviews-container h2 {
+    background-color: #392c4b;
+    /* font-size: 24pt; */
+    font-weight: 300;
+    font-size: 18pt;
+    letter-spacing: 5px;
+    padding: 1pt;
+    color: white;
+    text-transform: uppercase;
+    text-align: center;
+    margin-bottom: -10px;
+    margin-top: 10px;
+  }
+
+  #reviews-list li p {
+    margin: 10px 0 10px;
+    font-size: 12pt;
+  }
+
+  #reviews-list li p:nth-child(1) {
+    width: 42.5%;
+    display: inline-block;
+    font-size: 22pt;
+    color: #382245;
+    font-family: 'Oswald', sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+  }
+
+  #reviews-list li p:nth-child(2) {
+    float: right;
+    width: 25%;
+    line-height: 1;
+    margin-top: 15px;
+  }
+
+  #reviews-list li p:nth-child(3) {
+    border: solid #382245 .5px;
+    color: #382245;
+    letter-spacing: 3px;
+    text-align: center;
+    padding: 4px;
+    text-transform: uppercase;
+  }
+
+  .inside #footer {
+    bottom: 0;
+    /* position: relative; */
+    /* width: 100%; */
+  }
+}
+
+/* ====================== Media Query for iPad ====================== */
+@media only screen and (min-width:769px) {
+  #restaurant-name {
+    font-size: 22pt;
+    margin-top: 45px;
+  }
+
+  #restaurant-img {
+    width: 85%;
+  }
+
+  #restaurant-address {
+    font-size: 14pt;
+    margin: 25px 0;
+    width: 85%;
+  }
+
+  #restaurant-container, #reviews-container {
+    width: 50%;
+  }
+
+  #restaurant-cuisine {
+    width: 85%;
+    margin-top: -9px;
+  }
+
+  table#restaurant-hours {
+    background-color: rgb(255, 255, 255);
+    /* border-radius: 10px; */
+    border: solid #382245 .5px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    padding: 4px;
+    margin-top: 23px;
+    width: 85%;
+  }
+
+  tr {
+    border: solid #382245 .5px;
+  }
+
+  #restaurant-hours td {
+    padding: 4px;
+    text-align: center;
+  }
+
+  #restaurant-hours-header {
+    font-size: 18pt;
+    width: 85%;
+    background-color: #392c4b;
+    color: #fff;
+    font-weight: 300;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+    text-align: center;
+    margin-bottom: -23px;
+  }
+
+  #reviews-container {
+    padding: 20px 14px 30px;
+  }
+
+  #reviews-list li {
+    margin-top: 9px;
+    margin-left: 14px;
+    border: 1px solid #18151c;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    width: 79%;
+  }
+
+  #reviews-container h2 {
+    background-color: #392c4b;
+    /* font-size: 24pt; */
+    font-weight: 300;
+    font-size: 18pt;
+    letter-spacing: 5px;
+    padding: 1pt;
+    color: white;
+    text-transform: uppercase;
+    text-align: center;
+    margin-bottom: -10px;
+    margin-top: 10px;
+    width: 90%;
+    min-height: 100%;
+    margin-left: 13px;
+  }
+
+  #reviews-list li p {
+    margin: 10px 0 10px;
+    font-size: 12pt;
+  }
+
+  #reviews-list li p:nth-child(1) {
+    width: 42.5%;
+    display: inline-block;
+    font-size: 22pt;
+    color: #382245;
+    font-family: 'Oswald', sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+  }
+
+  #reviews-list li p:nth-child(2) {
+    float: right;
+    width: 25%;
+    line-height: 1;
+    margin-top: 15px;
+  }
+
+  #reviews-list li p:nth-child(3) {
+    border: solid #382245 .5px;
+    color: #382245;
+    letter-spacing: 3px;
+    text-align: center;
+    padding: 4px;
+    text-transform: uppercase;
+  }
+
+  .inside #map-container {
+    top: 100px;
+    height: 100%;
+  }
+
+  .inside #footer {
+    bottom: -20px;
+    position: absolute;
+    width: 100%;
+  }
+}
+
+/* ====================== Media Query for iPad pro and larger ====================== */
+@media only screen and (min-width:854px) {
+  #reviews-container h2 {
+    width: 93%;
+  }
+
+  #reviews-list li {
+    width: 85%;
+  }
+}
