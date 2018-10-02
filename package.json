@@ -10,14 +10,17 @@
     "type": "git",
     "url": "git+https://github.com/mkaydub/RRA.git"
   },
-  "author": "",
+  "author": "Melissa Key West mkaydub",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/mkaydub/RRA/issues"
   },
   "homepage": "https://github.com/mkaydub/RRA#readme",
-  "devDependencies": {},
+  "devDependencies": {
+    "grunt": "^1.0.3"
+  },
   "dependencies": {
-    "browser-sync": "^2.24.7"
+    "browser-sync": "^2.24.7",
+    "grunt-responsive-images": "^1.10.1"
   }
 }
