@@ -210,20 +210,27 @@ nav h1 a {
   font-size: 14pt;
 }
 
-#restaurants-list li a {
+#restaurants-list li button {
   font-family: 'Raleway', sans-serif;
   letter-spacing: .2rem;
   background-color: #392c4b;
   border-bottom: 3px solid #eee;
   border-radius: 5px;
   color: #fff;
+  width: 60%;
+  margin-top: 15px;
   display: inline-block;
   font-size: 12pt;
-  margin: 15px 0 0;
-  padding: 8px 30px 10px;
+  padding: 10px 30px 10px;
   text-align: center;
-  text-decoration: none;
   text-transform: uppercase;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#restaurants-list li button:hover {
+  background-color: #695287;
+  cursor: pointer;
 }
 
 /* ====================== Restaurant Details ====================== */
