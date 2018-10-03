@@ -330,3 +330,32 @@ nav h1 a {
 #restaurant-hours td {
   color: #666;
 }
+
+/* skip map section -
+credit:https://accessibility.oit.ncsu.edu/it-accessibility-at-nc-state/developers/accessibility-handbook/mouse-and-keyboard-events/skip-to-main-content/*/
+a.skip-map {
+  left: -999px;
+  position: absolute;
+  top: auto;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  z-index: -999;
+}
+
+a.skip-map:focus, a.skip-map:active {
+  color: #fff;
+  background-color: #18151c;
+  left: auto;
+  top: auto;
+  width: 30%;
+  height: auto;
+  overflow: auto;
+  margin: 30px 35%;
+  padding: 5px;
+  border-radius: 15px;
+  border: 4px solid #624287;
+  text-align: center;
+  font-size: 1.2em;
+  z-index: 999;
+}
