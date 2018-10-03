@@ -163,7 +163,7 @@ class DBHelper {
   /**
    * Restaurant image Srcset.
    */
-  static imageSrcsetForIndex(restaurant) {
+  static imageSrcsetForRestaurant(restaurant) {
     return (`/img/${restaurant.id}-300.jpg 300w, /img/${restaurant.id}-400.jpg 400w, /img/${restaurant.id}-600_2x.jpg 600w, /img/${restaurant.id}-800_2x.jpg 800w`);
   }
 
