@@ -113,8 +113,8 @@ nav h1 a {
 }
 
 /* Add a color on mouse-over */
-#breadcrumb li a:hover {
-  color: #392c4b;
+#breadcrumb li a:hover a:focus {
+  color: #cbaefc;
   text-decoration: underline;
 }
 
