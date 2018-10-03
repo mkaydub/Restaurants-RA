@@ -19,25 +19,26 @@
 <body>
   <header>
     <nav>
-      <h1 class="title"><a tabindex="1" href="/">Restaurant Reviews</a></h1>
+      <h1 class="title" role="banner"><a tabindex="0" href="/" role="navigation">Restaurant Reviews</a></h1>
     </nav>
   </header>
 
-  <main id="maincontent">
-    <section id="map-container" role="application" aria-label="map">
-      <div id="map"></div>
+  <main id="maincontent" role="main">
+    <a class="skip-map" href="#filter">Skip to main content</a>
+    <section id="map-container" role="application" aria-label="Google Map">
+      <div id="map" aria-hidden="true"></div>
     </section>
     <section>
-      <div class="filter-options">
-        <select id="neighborhoods-select" name="neighborhoods" onchange="updateRestaurants()">
-          <option value="all">All Neighborhoods</option>
+      <div id="filter" class="filter-options">
+        <select aria-label="filter-options" tabindex="0" id="neighborhoods-select" name="neighborhoods" onchange="updateRestaurants()" role="listbox">
+          <option aria-label="neighborhoods-select" value="all" role="option">All Neighborhoods</option>
         </select>
-        <select id="cuisines-select" name="cuisines" onchange="updateRestaurants()">
-          <option value="all">All Cuisines</option>
+        <select aria-label="filter-options" tabindex="0" id="cuisines-select" name="cuisines" onchange="updateRestaurants()" role="listbox">
+          <option aria-label="cuisines-select" value="all" role="option">All Cuisines</option>
         </select>
       </div>
-      <div class="restaurants-list-container">
-        <ul id="restaurants-list"></ul>
+      <div role="list" class="restaurants-list-container">
+        <ul  id="restaurants-list"></ul>
       </div>
 
     </section>
