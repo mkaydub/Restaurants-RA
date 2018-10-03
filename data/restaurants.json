@@ -12,7 +12,7 @@
       "lat": 40.713829,
       "lng": -73.989667
     },
-    "alt": "Mission Chinese Food: A popular Chinese food restaurant in Manhattan",
+    "alt": "A popular Chinese food restaurant in Manhattan",
     "cuisine_type": "Asian",
     "operating_hours": {
       "Monday": "5:30 pm - 11:00 pm",
@@ -54,7 +54,7 @@
       "lat": 40.683555,
       "lng": -73.966393
     },
-    "alt": "Emily's delicious looking pizza in Brooklyn",
+    "alt": "Authentic Pizza in Brooklyn",
     "cuisine_type": "Pizza",
     "operating_hours": {
       "Monday": "5:30 pm - 11:00 pm",
@@ -96,7 +96,7 @@
       "lat": 40.747143,
       "lng": -73.985414
     },
-    "alt": "Industrial looking Asian Restaurant Kang Ho Dong Baekjeong in Manhattan",
+    "alt": "Industrial Designed Asian Restaurant",
     "cuisine_type": "Asian",
     "operating_hours": {
       "Monday": "11:30 am - 2:00 am",
@@ -180,7 +180,7 @@
       "lat": 40.705089,
       "lng": -73.933585
     },
-    "alt": "Roberta's Pizza - Busy Pizza Restaurant in Brooklyn with ordering counter",
+    "alt": "Busy Pizza Restaurant in Brooklyn with ordering counter",
     "cuisine_type": "Pizza",
     "operating_hours": {
       "Monday": "11:00 am - 12:00 am",
@@ -264,7 +264,7 @@
       "lat": 40.727397,
       "lng": -73.983645
     },
-    "alt": "Street view of a small burger joint in Manhattan with a wait",
+    "alt": "Street view of a popular small burger joint in Manhattan",
     "cuisine_type": "American",
     "operating_hours": {
       "Monday": "11:30 am - 10:00 pm",
@@ -306,7 +306,7 @@
       "lat": 40.726584,
       "lng": -74.002082
     },
-    "alt": "Old style street sign for The Dutch",
+    "alt": "Old style street sign for an American Style Restaurant",
     "cuisine_type": "American",
     "operating_hours": {
       "Monday": "11:30 am - 3:00 pm, 5:30 pm - 11:00 pm",
@@ -348,7 +348,7 @@
       "lat": 40.743797,
       "lng": -73.950652
     },
-    "alt": "A couple enjoying Ramen at Mu Ramen in Queens",
+    "alt": "A couple enjoying Ramen in Queens",
     "cuisine_type": "Asian",
     "operating_hours": {
       "Monday": "5:00 pm - 10:00 pm",
@@ -390,7 +390,7 @@
       "lat": 40.743394,
       "lng": -73.954235
     },
-    "alt": "Upscale modern Mexican restaurant Casa Enrique",
+    "alt": "Upscale modern Mexican restaurant",
     "cuisine_type": "Mexican",
     "operating_hours": {
       "Monday": "5:00 pm - 12:00 am",
