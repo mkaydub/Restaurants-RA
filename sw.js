@@ -67,7 +67,7 @@ self.addEventListener('activate', function(e) {
           return cacheName.startsWith('v') &&
             cacheName != staticCacheName;
         }).map(function(cacheName) {
-          return cache.delete(cacheName);
+          return caches.delete(cacheName);
         })
       );
     })
