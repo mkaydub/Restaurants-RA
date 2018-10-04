@@ -75,7 +75,7 @@ self.addEventListener('fetch', function(e) {
             return response;
           })
           .catch(function(err) {
-            console.error(err);
+            console.log(err);
           });
       }
     })
