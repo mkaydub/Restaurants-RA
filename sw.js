@@ -12,7 +12,6 @@ const cacheFiles = [
   '/img/1-600_2x.jpg',
   '/img/1-800_2x.jpg',
   '/img/2-300.jpg',
-  '/img/2-300.jpg',
   '/img/2-400.jpg',
   '/img/2-600_2x.jpg',
   '/img/2-800_2x.jpg',
