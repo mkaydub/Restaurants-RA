@@ -37,6 +37,8 @@ Please read [CONTRIBUTING.md](https://gist.github.com/PurpleBooth/b24679402957c6
 
 * [Referenced when stuck](https://matthewcranford.com/restaurant-reviews-app-walkthrough-part-3-accessibility/)
 
+* [For Aria Skip Map](https://accessibility.oit.ncsu.edu/it-accessibility-at-nc-state/developers/accessibility-handbook/mouse-and-keyboard-events/skip-to-main-content/)
+
 * Udacity Tutorials  
 1. https://www.youtube.com/watch?v=ag_jBDFAL0U&feature=youtu.be
 2. https://www.youtube.com/watch?v=92dtrNU1GQc
