@@ -16,6 +16,9 @@ You have been provided the code for a restaurant reviews website. The code has a
 #### Or
 
 2. Download the .zip file or clone this repository
+```
+https://github.com/mkaydub/Restaurant-Reviews
+```
 
 
 * In a terminal, check the version of Python you have: `python -V`. If you have Python 2.x, spin up the server with `python -m SimpleHTTPServer 8000` (or some other port, if port 8000 is already in use.) For Python 3.x, you can use `python3 -m http.server 8000`. If you don't have Python installed, navigate to Python's [website](https://www.python.org/) to download and install the software.
@@ -32,8 +35,8 @@ Please read [CONTRIBUTING.md](https://gist.github.com/PurpleBooth/b24679402957c6
 
 * [Referenced when stuck](https://james-priest.github.io/mws-restaurant-stage-1/stage1.html)
 
-* [Referenced when stuck] (https://matthewcranford.com/restaurant-reviews-app-walkthrough-part-3-accessibility/)
+* [Referenced when stuck](https://matthewcranford.com/restaurant-reviews-app-walkthrough-part-3-accessibility/)
 
 * Udacity Tutorials  
-- https://www.youtube.com/watch?v=ag_jBDFAL0U&feature=youtu.be
-- https://www.youtube.com/watch?v=92dtrNU1GQc
+1. https://www.youtube.com/watch?v=ag_jBDFAL0U&feature=youtu.be
+2. https://www.youtube.com/watch?v=92dtrNU1GQc
