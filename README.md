@@ -11,7 +11,7 @@ You have been provided the code for a restaurant reviews website. The code has a
 
 ### Running the Application
 
-1. 1. Open it [here] (https://mkaydub.github.io/Restaurant-Reviews/)
+1. Open it [here](https://mkaydub.github.io/Restaurant-Reviews/)
 
 #### Or
 
@@ -30,9 +30,9 @@ Please read [CONTRIBUTING.md](https://gist.github.com/PurpleBooth/b24679402957c6
 ### Acknowledgements
 * [Project Restaurant Reviews (Stage 1) - Starter Code](https://github.com/udacity/mws-restaurant-stage-1)
 
-* Referenced when stuck https://james-priest.github.io/mws-restaurant-stage-1/stage1.html
+* [Referenced when stuck](https://james-priest.github.io/mws-restaurant-stage-1/stage1.html)
 
-* Referenced when stuck https://matthewcranford.com/restaurant-reviews-app-walkthrough-part-3-accessibility/
+* [Referenced when stuck] (https://matthewcranford.com/restaurant-reviews-app-walkthrough-part-3-accessibility/)
 
 * Udacity Tutorials  
 - https://www.youtube.com/watch?v=ag_jBDFAL0U&feature=youtu.be
