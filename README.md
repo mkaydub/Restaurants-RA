@@ -25,7 +25,7 @@ https://github.com/mkaydub/Restaurant-Reviews
 
 * With your server running, visit the site: `http://localhost:8000`, and look around for a bit to see what the current experience looks like.
 
-## Contributing
+### Contributing
 
 Please read [CONTRIBUTING.md](https://gist.github.com/PurpleBooth/b24679402957c63ec426) for details on our code of conduct, and the process for submitting pull requests to us.
 
