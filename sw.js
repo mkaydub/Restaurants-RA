@@ -50,13 +50,32 @@ const cacheFiles = [
   '/img/10-800_2x.jpg',
 ];
 
+var staticCacheName = 'v3';
+
 self.addEventListener('install', function(e) {
   e.waitUntil(
-    caches.open('v1').then(function(cache) {
+    caches.open(staticCacheName).then(function(cache) {
       return cache.addAll(cacheFiles);
     })
   );
 });
+
+self.addEventListener('activate', function(e) {
+  e.waitUntil(
+    caches.keys().then(function(cacheNames) {
+      return Promise.all(
+        cacheNames.filter(function(cacheName) {
+          return cacheName.startsWith('v') &&
+            cacheName != staticCacheName;
+        }).map(function(cacheName) {
+          return cache.delete(cacheName);
+        })
+      );
+    })
+  );
+});
+
+
 
 self.addEventListener('fetch', function(e) {
   e.respondWith(
@@ -69,7 +88,7 @@ self.addEventListener('fetch', function(e) {
         return fetch(e.request)
           .then(function(response) {
             const clonedResponse = response.clone();
-            caches.open('v1').then(function(cache) {
+            caches.open(staticCacheName).then(function(cache) {
               cache.put(e.request, clonedResponse);
             })
             return response;
