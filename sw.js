@@ -78,7 +78,9 @@ self.addEventListener('activate', function(e) {
 
 self.addEventListener('fetch', function(e) {
   e.respondWith(
-    caches.match(e.request).then(function(response) {
+    caches.match(e.request, {
+      ignoreSearch: true
+    }).then(function(response) {
       if (response) {
         console.log('found', e.request, 'in cache');
         return response;
