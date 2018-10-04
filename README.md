@@ -34,5 +34,6 @@ Please read [CONTRIBUTING.md](https://gist.github.com/PurpleBooth/b24679402957c6
 
 * Referenced when stuck https://matthewcranford.com/restaurant-reviews-app-walkthrough-part-3-accessibility/
 
-* Udacity Tutorials https://www.youtube.com/watch?v=ag_jBDFAL0U&feature=youtu.be
-https://www.youtube.com/watch?v=92dtrNU1GQc
+* Udacity Tutorials  
+- https://www.youtube.com/watch?v=ag_jBDFAL0U&feature=youtu.be
+- https://www.youtube.com/watch?v=92dtrNU1GQc
