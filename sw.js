@@ -50,7 +50,7 @@ const cacheFiles = [
   '/img/10-800_2x.jpg',
 ];
 
-var staticCacheName = 'v3';
+var staticCacheName = 'v4';
 
 self.addEventListener('install', function(e) {
   e.waitUntil(
