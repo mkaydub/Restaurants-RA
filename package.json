@@ -17,7 +17,7 @@
   },
   "homepage": "https://github.com/mkaydub/RRA#readme",
   "devDependencies": {
-    "grunt": "^1.0.3",
+    "grunt": "^1.3.0",
     "grunt-responsive-images": "^1.10.1"
   },
   "dependencies": {
